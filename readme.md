@@ -10,10 +10,10 @@ artemis create mybroker2 --port-offset 0
 ./artemis consumer --url tcp://localhost:61616
 
 3. Enabled clustered
-See jgroup.xml and broker.xml <broadcast-groups>, <discovery-groups> and <cluster-connections>
+See jgroup.xml and broker.xml `<broadcast-groups>`, `<discovery-groups>` and `<cluster-connections>`
 
 4. Load balancing
-See broker.xml, Add <redistribution-delay> in <address-setting> 
+See broker.xml, Add `<redistribution-delay>` in `<address-setting>` 
 
 5. Enable SSL for HornetQ OpenWire protocol
 a. Provide keystore.jks and truststore.jks
